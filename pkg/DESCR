@@ -1,6 +1,6 @@
-Common interface for Ruby's HTTP libraries.
-
-ruby-httpi supports multiple adapters of which Net::HTTP is used by
-default.  To use a different adapter please install the corresponding
-package such as ruby-httpclient.
-
+HTTP::Cookie is a Ruby library to handle HTTP Cookies based on RFC 6265.
+It has with security, standards compliance and compatibility in mind, to
+behave just the same as today's major web browsers. It has builtin
+support for the legacy cookies.txt and the latest cookies.sqlite formats
+of Mozilla Firefox, and its modular API makes it easy to add support for
+a new backend store.
